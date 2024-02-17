@@ -1,3 +1,7 @@
 "use strict";
-const x = 1;
-console.log(x);
+// let x: number = 1;
+// console.log(x);
+function Hello(name) {
+    console.log(`Hello ${name}`);
+}
+Hello("Aakash");
