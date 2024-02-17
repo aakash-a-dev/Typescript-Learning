@@ -2,8 +2,14 @@
 // console.log(x);
 
 
-function Hello(name: string) {
-    console.log(`Hello ${name}`);
+// function Hello(name: string) {
+//     console.log(`Hello ${name}`);
+// }
+
+// Hello("Aakash");
+
+function sum(a: number, b: number) {
+    console.log(a + b);
 }
 
-Hello("Aakash");
+sum(2, 3);
